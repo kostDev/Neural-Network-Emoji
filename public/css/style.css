@@ -1,0 +1,29 @@
+.p5Canvas {
+	display: block;
+	margin: 0 auto;
+}
+
+.panel {
+	background: #fae;
+	margin: 0 auto;
+    display: block;
+    height: 180px;
+    width: 501px;
+}
+
+
+.training-panel {
+	padding: 3rem 7rem;
+}
+
+.check-panel {
+	display: none;
+}
+
+#answer-alert {
+	position: absolute;
+	display: none;
+	float: right;
+	right: 0;
+	top: 0;
+}

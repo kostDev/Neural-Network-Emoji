@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Neural Network</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./public/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./public/css/bootstrap.min.css">
+	<script src="./public/js/p5/p5.js"></script>
+	<script src="./public/js/axios.min.js"></script>
+</head>
+<body>
+	<div class="panel">
+		<div class="training-panel">
+			<div class="form-group mb-1">
+		    	<label class="">Expected result: 🙂 ☹️ 🌸 ❤</label>
+		    	<div class="input-group mb-2">
+					<div class="input-group-prepend">
+				    	<label class="input-group-text" for="inputGroupSelect01">Emoji</label>
+				  	</div>
+				  	<select class="custom-select" id="select">
+					    <option value="smile" selected>🙂</option>
+					    <option value="sad">☹️</option>
+					    <option value="flower">🌸</option>
+					    <option value="heart">❤</option>
+				  	</select>
+				</div>
+				<button class="btn btn-dark mt-2 ml-2 float-right" onclick="clearGrid();">clear</button>
+		  		<button class="btn btn-dark mt-2 float-right" onclick="trainingNet();">training</button>
+		    	<button class="btn btn-info mt-2 mr-2 float-right" onclick="getAnswer();">check</button>
+		    </div>
+		</div>
+	</div>
+	<div class="alert alert-success mr-2 mt-2" id="answer-alert" onclick="hideAlert();">
+	</div>
+	<!-- <script src="./public/js/p5/addons/p5.dom.min.js"></script> -->
+	<script src="./public/js/main.js"></script>
+</body>
+</html> z
