@@ -1,5 +1,5 @@
 # Neural-Network-Emoji
-Neural network for checking emoji ( Use: [BrainJS](https://github.com/BrainJS/brain.js))
+Neural network for checking emoji (Use: [BrainJS](https://github.com/BrainJS/brain.js))
 
 ## How to run:
 ```
